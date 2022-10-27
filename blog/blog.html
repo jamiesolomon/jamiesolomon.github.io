@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Blog
-permalink: /blog/
+title: ProjectList
+permalink: /projectlist/
 ---
 
 <div class="row">
@@ -15,8 +15,8 @@ permalink: /blog/
     <div class="col-lg-8 col-lg-offset-2">
         <div class="wrapper wrapper-content animated fadeInRight">
 
-            <!-- latest 10 blog -->
-			{% for post in site.posts limit:10 %}
+            <!-- all projects in the _posts folder gets displayed -->
+			{% for post in site.posts %}
             <div class="vote-item">
                 <div class="row">
                     <div class="col-md-10">
