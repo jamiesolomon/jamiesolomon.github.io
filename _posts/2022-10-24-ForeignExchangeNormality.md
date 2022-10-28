@@ -9,7 +9,7 @@ tags: [Jalpc,Jekyll]
 icon: icon-html
 ---
 
-[Foreign Exchange Normality Analysis and Modeling](https://github.com/jamiesolomon/ForeignExchangeNormality) <br>
+[Foreign Exchange Normality Analysis and Modeling (Code)](https://github.com/jamiesolomon/ForeignExchangeNormality) <br>
 [Full Report](/images/FullReport.pdf)
  + EDA
     - Mainly focused on the EDA of the foreign exchange pairing USD/CAD
