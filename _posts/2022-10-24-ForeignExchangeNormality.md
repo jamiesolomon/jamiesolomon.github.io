@@ -19,16 +19,16 @@ icon: icon-html
         - This notion helps machine learning algoriythms assess the risk associated with a specific rate extreamly efficently strictly using technical analysis.
     - 2006 to 2021 plot of USD/CAD foreign exchange rate
     <!-- ![Specified pdf plot](/images/USDCAD_FullPlot.png) -->
-    <img src="/images/USDCAD_FullPlot.png" alt="usd/cad full plot" width="200"/>
+    <img src="/images/USDCAD_FullPlot.png" alt="usd/cad full plot" width="400"/>
     
     - First subset: June 2006 to November 2014
     <!-- ![Specified pdf plot](/images/USDCAD_2006-2014_Plot.png) -->
     <!-- ![Specified pdf plot](/images/2006-2014_CADUSD_Hist.png) -->
-    <img src="/images/USDCAD_2006-2014_Plot.png" alt="2006-2014 plot" width="100"/>
-    <img src="/images/2006-2014_CADUSD_Hist.png" alt="histogram" width="100"/>
+    <img src="/images/USDCAD_2006-2014_Plot.png" alt="2006-2014 plot" width="200"/>
+    <img src="/images/2006-2014_CADUSD_Hist.png" alt="histogram" width="200"/>
     
     - Second subset: November 2014 to Devember 2021
     <!-- ![Specified pdf plot](/images/USDCAD_2014-2021_Plot.png) -->
     <!-- ![Specified pdf plot](/images/2014-2021_CADUSD_Hist.png) -->
-    <img src="/images/USDCAD_2014-2021_Plot.png" alt="2014-2021 full plot" width="100"/>
-    <img src="/images/2014-2021_CADUSD_Hist.png" alt="histogram" width="100"/>
+    <img src="/images/USDCAD_2014-2021_Plot.png" alt="2014-2021 full plot" width="200"/>
+    <img src="/images/2014-2021_CADUSD_Hist.png" alt="histogram" width="200"/>
