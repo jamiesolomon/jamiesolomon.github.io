@@ -29,11 +29,11 @@ author:  # change following line to your infomation.
     - name: fa-linux
     - name: icon-apache
   desc: Jamie Solomon is a skilled computer 
-  programmer and data scientist with a passion for lifelong learning. 
-  He holds a Diploma in Computer Programming from George Brown College and a 
-  Data Science Diploma from BrainStation, where he gained a deep
-   understanding of a multitude of programming languages and data science concepts.  
-   <br> For more, please reference his CV above (click on the pdf button!).
+    programmer and data scientist with a passion for lifelong learning. 
+    He holds a Diploma in Computer Programming from George Brown College and a 
+    Data Science Diploma from BrainStation, where he gained a deep
+    understanding of a multitude of programming languages and data science concepts.  
+    <br> For more, please reference his CV above (click on the pdf button!).
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
