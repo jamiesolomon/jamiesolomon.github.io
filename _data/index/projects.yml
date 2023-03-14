@@ -6,7 +6,7 @@
   gh_user: jamiesolomon
   repo: ForeignExchangeNormality
   img: /static/assets/img/landing/python.png
-  desc: "Proof supporting the hypothosis: The USD/CAD foreign exchange rate follows a normal distribution when seperated into longterm periods of time."
+  desc: "Proof supporting the hypothesis: The USD/CAD foreign exchange rate follows a normal distribution when seperated into longterm periods of time."
   url: https://jamiesolomon.github.io/html/2022/10/25/ForeignExchangeNormality.html
 
 - name: Major League Baseball EDA and Modeling Project
