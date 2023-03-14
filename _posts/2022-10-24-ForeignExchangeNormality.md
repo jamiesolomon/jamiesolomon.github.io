@@ -29,7 +29,8 @@ The main focus of the exploratory data analysis is on the USD/CAD foreign exchan
 
 The plot below shows the USD/CAD foreign exchange rate from January 2006 to December 2021.
 
-![usd/cad full plot](/images/USDCAD_FullPlot.png)
+<img src="/images/USDCAD_2006-2014_Plot.png" alt="2006-2014 plot" width="400"/>
+
 
 ### 1.2 Long-term periods of normality
 
