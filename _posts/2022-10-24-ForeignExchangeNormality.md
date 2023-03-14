@@ -54,4 +54,4 @@ The full report can be found in the following [PDF file](/images/FullReport.pdf)
 
 ### Conclusion
 
-<h4>The exploratory data analysis supports the hypothesis that the USD/CAD foreign exchange rate follows a normal distribution when separated into long-term periods of time. The periods of normality indicated in this report are: [June 2006 - Nov 2014) and [Nov 2014 - Dec 2021]. This notion helps machine learning algorithms assess the risk associated with a specific rate extremely efficiently strictly using technical analysis.</h4>
+<h4>The exploratory data analysis supports the hypothesis that the USD/CAD foreign exchange rate follows a normal distribution when separated into successive long-term periods of time. The periods of normality indicated in this report are: [June 2006 - Nov 2014) and [Nov 2014 - Dec 2021]. This notion helps machine learning algorithms assess the risk associated with a specific rate extremely efficiently strictly using technical analysis.</h4>
