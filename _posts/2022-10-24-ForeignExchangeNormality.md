@@ -36,21 +36,21 @@ The full report can be found in the following [PDF file](/images/FullReport.pdf)
 
 #### The plot of the first subset is as follows:
 
-<img src="/images/USDCAD_2006-2014_Plot.png" alt="USD/CAD plot 2006-2014" width="400"/>
+<img src="/images/USDCAD_2006-2014_Plot.png" alt="USD/CAD plot 2006-2014" width="600"/>
 
 #### The corresponding histogram for this subset is shown below:
 
-<img src="/images/2006-2014_CADUSD_Hist.png" alt="Histogram 2006-2014" width="400"/>
+<img src="/images/2006-2014_CADUSD_Hist.png" alt="Histogram 2006-2014" width="600"/>
 
 ### Subset 2: November 2014 to December 2021
 
 #### The plot of the second subset is as follows:
 
-<img src="/images/USDCAD_2014-2021_Plot.png" alt="USD/CAD plot 2014-2021" width="400"/>
+<img src="/images/USDCAD_2014-2021_Plot.png" alt="USD/CAD plot 2014-2021" width="600"/>
 
 #### The corresponding histogram for this subset is shown below:
 
-<img src="/images/2014-2021_CADUSD_Hist.png" alt="Histogram 2014-2021" width="400"/>
+<img src="/images/2014-2021_CADUSD_Hist.png" alt="Histogram 2014-2021" width="600"/>
 
 ### Conclusion
 
