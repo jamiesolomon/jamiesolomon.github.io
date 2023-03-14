@@ -29,7 +29,7 @@ The main focus of the exploratory data analysis is on the USD/CAD foreign exchan
 
 The plot below shows the USD/CAD foreign exchange rate from January 2006 to December 2021.
 
-<img src="/images/USDCAD_2006-2014_Plot.png" alt="2006-2014 plot" width="400"/>
+<img src="/images/USDCAD_2006-2014_Plot.png" alt="2006-2014 plot" width="600"/>
 
 
 ### 1.2 Long-term periods of normality
@@ -45,21 +45,23 @@ This notion helps machine learning algorithms assess the risk associated with a 
 
 The plot below shows the USD/CAD foreign exchange rate from June 2006 to November 2014.
 
-![2006-2014 plot](/images/USDCAD_2006-2014_Plot.png)
+<img src="/images/USDCAD_2006-2014_Plot.png" alt="2006-2014 plot" width="600"/>
 
 The histogram below shows the distribution of the USD/CAD foreign exchange rate from June 2006 to November 2014.
 
-![histogram](/images/2006-2014_CADUSD_Hist.png)
+<img src="/images/2006-2014_CADUSD_Hist.png" alt="histogram" width="600"/>
+
 
 ### 1.4 Subset 2: November 2014 to December 2021
 
 The plot below shows the USD/CAD foreign exchange rate from November 2014 to December 2021.
 
-![2014-2021 plot](/images/USDCAD_2014-2021_Plot.png)
+<img src="/images/USDCAD_2014-2021_Plot.png" alt="2014-2021 plot" width="600"/>
 
 The histogram below shows the distribution of the USD/CAD foreign exchange rate from November 2014 to December 2021.
 
-![histogram](/images/2014-2021_CADUSD_Hist.png)
+<img src="/images/2014-2021_CADUSD_Hist.png" alt="histogram" width="600"/>
+
 
 ## 2. Modeling
 
