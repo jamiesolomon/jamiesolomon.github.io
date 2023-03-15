@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Baseball Modeling: A Comparison of Regression Techniques"
-date:   2022-11-01
+date:   2023-03-14
 desc: "Overview of project with a link to the GitHub repository"
 keywords: "baseball, regression, modeling"
 categories: [Data Science]
@@ -13,6 +13,12 @@ icon: icon-baseball
 [Full Report](/images/FullReport.pdf)
 
 This project iterates through various regression models for predicting the outcome of an MLB season. The dataset used in this project contains batting statistics from Major League Baseball teams from 1951 to 2021.
+
+### Models and their corresponding R-Squared Score:
+1. Predicting Season Rank using Ordinary Least Squares - 0.68
+2. Predicting Number of Wins using Ordinary Least Squares - 0.52
+3. Predicting Number of Wins using Random Forest - 0.47
+4. Predicting Number of Runs using Ordinary Least Squares - 
 
 ### Data Preprocessing
 
