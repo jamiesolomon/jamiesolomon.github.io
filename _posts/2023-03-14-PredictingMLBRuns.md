@@ -39,11 +39,12 @@ The first model this report chooses to use is Ordinary Least Squares, from the s
 
 ### Model 2: Predicting Number of Wins using Ordinary Least Squares
 
-Polynomial regression was used to fit a quadratic model to the data. The degree of the polynomial was chosen using 10-fold cross-validation, resulting in a degree of 2. The model achieved an R-squared score of 0.84 on the test data.
+The second model this project chooses is to predict Wins, another outcome that contributes to rank but is possibly more linear and universal. By employing four models to iterate through low p-value features, the resulting r-squared value was 0.53, indicating that the linear model found it more challenging to predict wins compared to rank. This suggests that the relationship between the features and wins is not as strong as the relationship between the features and rank.
+<br>
 
 ### Model 3: Predicting Number of Wins using Random Forest
 
-A polynomial regression model with ridge regularization was trained on the preprocessed data. The regularization parameter, alpha, was chosen using 10-fold cross-validation and was found to be 1.00. The optimal degree found was 4. The model achieved an R-squared score of 0.94 on the test data.
+Since wins can not be modeled very well linearly, this project decides to try a nonlinear predictive model... a Random Forest, using the already curated features from the previous linear models with low p-values. After running a Bayesian Search for optimal number of estimator, minimum samples per leaf, and max depth, the resulting r-squared value is 0.49... pointing to the fact that the chosen features are not great as stand alone predictors for wins. The model needs more effective features to accurately predict wins, therefore this project will try to predict another variable that directly contributes to wins... Runs.
 
 ### Model 4: Predicting Number of Runs using Ordinary Least Squares
 
@@ -55,7 +56,7 @@ A random forest regression model was trained on the preprocessed data using 500 
 
 ### Model 6: Predicting number of Runs using Polynomial Regression
 
-A random forest regression model was trained on the preprocessed data using 500 trees. The model achieved an R-squared score of 0.73 on the test data.
+<img src="/images/model6_accuracy.png" alt="Model6_accuracy" width="600"/>
 
 
 
