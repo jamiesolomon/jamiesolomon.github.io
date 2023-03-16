@@ -9,7 +9,7 @@
   desc: "Proof supporting the hypothesis: The USD/CAD foreign exchange rate follows a normal distribution when separated into long-term periods of time."
   url: https://jamiesolomon.github.io/eda/2022/10/25/ForeignExchangeNormality.html
 
-- name: Major League Baseball EDA and Modeling Project
+- name: Major League Baseball - Predicting Number of Runs in a Season
   i18n: 
   gh_user: jamiesolomon
   repo: BaseballModeling
