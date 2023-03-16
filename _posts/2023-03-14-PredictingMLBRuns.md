@@ -30,7 +30,7 @@ Before training the models, the data was preprocessed to remove time periods wit
 
 The first model this report chooses to use is Ordinary Least Squares, from the statsmodels library. Reason being it has a great summarization method that can be used to filter out any insignificant features, as well as track the initial success of the model quickly. The final model after filtering out insignificant, low p-value features resulted in an average R-Squared value of 0.68. Concluding that the following features (and their corresponding importance values) can predict a teams finishing rank with 68% accuracy. The following image represents predicted values plotted against their respective true values. In a model with an r-squared value of 1 (100% accuracy), the points would all be plotted on the diagonal red line.
 
-<img src="/images/model1_accuracy.png" alt="Model1_accuracy" width="600"/>
+<img src="/images/model1_accuracy.pdf" alt="Model1_accuracy" width="600"/>
 
 ### Model 2: Predicting Number of Wins using Ordinary Least Squares
 
