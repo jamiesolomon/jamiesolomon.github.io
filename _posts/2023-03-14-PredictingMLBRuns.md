@@ -33,11 +33,11 @@ Before training the models, the data was preprocessed to remove time periods wit
 ---
 
 ### Model 1: Predicting Season Rank using Ordinary Least Squares - 0.68
-<img src="/images/model1_coefs.png" alt="Model1_coefs" width="600"/>
 
 The first model this report chooses to use is Ordinary Least Squares, from the statsmodels library. Reason being it has a great summarization method that can be used to filter out any insignificant features due to a low p-value, as well as track the initial success of the model quickly. The final model after filtering out low p-value features resulted in an average R-Squared value of 0.68. Concluding that the following features (and their corresponding importance values) can predict a teams finishing rank with 68% accuracy. The following image represents predicted values plotted against their respective true values. In a model with an r-squared value of 1 (100% accuracy), the points would all be plotted on the diagonal red line. <br>
 
 <img src="/images/model1_accuracy.png" alt="Model1_accuracy" width="600"/>
+<img src="/images/model1_coefs.png" alt="Model1_coefs" width="600"/>
 <br>
 
 ---
