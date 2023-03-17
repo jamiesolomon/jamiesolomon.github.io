@@ -32,7 +32,7 @@ Before training the models, the data was preprocessed to remove time periods wit
 
 ---
 
-### Model 1: Predicting Season Rank using Ordinary Least Squares
+### Model 1: Predicting Season Rank using Ordinary Least Squares - 0.68
 <img src="/images/model1_coefs.png" alt="Model1_coefs" width="600"/>
 
 The first model this report chooses to use is Ordinary Least Squares, from the statsmodels library. Reason being it has a great summarization method that can be used to filter out any insignificant features due to a low p-value, as well as track the initial success of the model quickly. The final model after filtering out low p-value features resulted in an average R-Squared value of 0.68. Concluding that the following features (and their corresponding importance values) can predict a teams finishing rank with 68% accuracy. The following image represents predicted values plotted against their respective true values. In a model with an r-squared value of 1 (100% accuracy), the points would all be plotted on the diagonal red line. <br>
@@ -42,20 +42,20 @@ The first model this report chooses to use is Ordinary Least Squares, from the s
 
 ---
 
-### Model 2: Predicting Number of Wins using Ordinary Least Squares
+### Model 2: Predicting Number of Wins using Ordinary Least Squares - 0.52
 
 The second model this project chooses is to predict Wins, another outcome that contributes to rank but is possibly more linear and universal. By employing four models to iterate through low p-value features, the resulting r-squared value was 0.53, indicating that the linear model found it more challenging to predict wins compared to rank. This suggests that the relationship between the features and wins is not as strong as the relationship between the features and rank.
 <br>
 
 ---
 
-### Model 3: Predicting Number of Wins using Random Forest
+### Model 3: Predicting Number of Wins using Random Forest - 0.48
 
 Since wins can not be modeled very well linearly, this project decides to try a nonlinear predictive model... a Random Forest, using the already curated features from the previous linear models with low p-values. After running a Bayesian Search for optimal number of estimator, minimum samples per leaf, and max depth, the resulting r-squared value is 0.49... pointing to the fact that the chosen features are not great as stand alone predictors for wins. The model needs more effective features to accurately predict wins, therefore this project will try to predict another variable that directly contributes to wins... Runs. <br>
 
 ---
 
-### Model 4: Predicting Number of Runs using Ordinary Least Squares
+### Model 4: Predicting Number of Runs using Ordinary Least Squares - 0.93
 
 From this moment on, this report will only be using what will be referred to atomic batting statistics. These are the statistics that strictly contribute to offense (runs) without over lapping with each other (eg: OPS and OBP).
 The atomic batting statistics chosen are:
@@ -74,12 +74,12 @@ The first model this report chooses to run is (of course) an Ordinary Least Squa
 
 ---
 
-### Model 5: Predicting number of Runs using Random Forrest
+### Model 5: Predicting number of Runs using Random Forrest - 0.86
 
 
 ---
 
-### Model 6: Predicting number of Runs using Polynomial Regression
+### Model 6: Predicting number of Runs using Polynomial Regression - 0.92
 
 <img src="/images/sumCoefs_model6.png" alt="Model6_coefs" width="600"/>
 
