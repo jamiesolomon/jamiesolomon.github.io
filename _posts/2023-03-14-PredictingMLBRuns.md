@@ -46,10 +46,22 @@ The second model this project chooses is to predict Wins, another outcome that c
 ### Model 3: Predicting Number of Wins using Random Forest
 
 Since wins can not be modeled very well linearly, this project decides to try a nonlinear predictive model... a Random Forest, using the already curated features from the previous linear models with low p-values. After running a Bayesian Search for optimal number of estimator, minimum samples per leaf, and max depth, the resulting r-squared value is 0.49... pointing to the fact that the chosen features are not great as stand alone predictors for wins. The model needs more effective features to accurately predict wins, therefore this project will try to predict another variable that directly contributes to wins... Runs.
+<br>
 
 ### Model 4: Predicting Number of Runs using Ordinary Least Squares
 
+From this moment on, this report will only be using what will be referred to atomic batting statistics. These are the statistics that strictly contribute to offense (runs) without over lapping with each other (eg: OPS and OBP).
+The atomic batting statistics chosen are:
+ + Singles
+ + Doubles
+ + Triples
+ + Homeruns
+ + Walks
 
+The following heatmap displays the correlation between all features being used in the model:
+<img src="/images/corr_heatmap.png" alt="Correlation_Heatmap" width="600"/>
+<br>
+The first model this report chooses to run is (of course) an Ordinary Least Squares regression, due to its summarization method and quick p-value checking. The model runs incredibly well, boasting the best r-squared value in the entire project of 0.93. 
 
 ### Model 5: Predicting number of Runs using Random Forrest
 
