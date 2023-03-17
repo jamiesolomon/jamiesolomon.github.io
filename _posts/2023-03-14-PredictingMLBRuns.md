@@ -59,7 +59,8 @@ The atomic batting statistics chosen are:
  + Walks
 
 The following heatmap displays the correlation between all features being used in the model:
-<img src="/images/corr_heatmap.png" alt="Correlation_Heatmap" width="600"/>
+<br>
+<img src="/images/corr_heatmap.png" alt="Correlation_Heatmap" width="900"/>
 <br>
 The first model this report chooses to run is (of course) an Ordinary Least Squares regression, due to its summarization method and quick p-value checking. The model runs incredibly well, boasting the best r-squared value in the entire project of 0.93. This means the current model can predict the number of runs a team gets in one season with a high degree of accuracy using the aforementioned features... now the question begs: Which features contributes the most to runs? and which features should a team focus less on investing in. The following bar graph ranks the coefficient values in which the linear model assigned to each feature.
 <img src="/images/model4_coefs.png" alt="Model4_Coefficients" width="600"/>
