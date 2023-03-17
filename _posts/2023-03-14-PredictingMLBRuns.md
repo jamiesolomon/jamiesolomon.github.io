@@ -31,6 +31,7 @@ Before training the models, the data was preprocessed to remove time periods wit
 <br>
 
 ### Model 1: Predicting Season Rank using Ordinary Least Squares
+<img src="/images/model1_coefs.png" alt="Model1_coefs" width="600"/>
 
 The first model this report chooses to use is Ordinary Least Squares, from the statsmodels library. Reason being it has a great summarization method that can be used to filter out any insignificant features, as well as track the initial success of the model quickly. The final model after filtering out insignificant, low p-value features resulted in an average R-Squared value of 0.68. Concluding that the following features (and their corresponding importance values) can predict a teams finishing rank with 68% accuracy. The following image represents predicted values plotted against their respective true values. In a model with an r-squared value of 1 (100% accuracy), the points would all be plotted on the diagonal red line.
 
@@ -48,13 +49,15 @@ Since wins can not be modeled very well linearly, this project decides to try a 
 
 ### Model 4: Predicting Number of Runs using Ordinary Least Squares
 
-A random forest regression model was trained on the preprocessed data using 500 trees. The model achieved an R-squared score of 0.73 on the test data.
+
 
 ### Model 5: Predicting number of Runs using Random Forrest
 
-A random forest regression model was trained on the preprocessed data using 500 trees. The model achieved an R-squared score of 0.73 on the test data.
+
 
 ### Model 6: Predicting number of Runs using Polynomial Regression
+
+<img src="/images/sumCoefs_model6.png" alt="Model6_coefs" width="600"/>
 
 <img src="/images/model6_accuracy.png" alt="Model6_accuracy" width="600"/>
 
@@ -62,6 +65,4 @@ A random forest regression model was trained on the preprocessed data using 500 
 
 ### Conclusion
 
-The random forest regression model performed the best in predicting runs scored in a baseball game, achieving an R-squared score of 0.47 on the test data. However, all the models except for the simple linear regression model achieved similar performance, with R-squared scores ranging from 0.43 to 0.47.
 
-Overall, this report shows that a variety of regression techniques can be used to predict runs scored in a baseball game, and that the choice of technique may depend on the specific problem and data at hand.
