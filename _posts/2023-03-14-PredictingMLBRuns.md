@@ -57,7 +57,7 @@ Since wins can not be modeled very well linearly, this project decides to try a 
 
 ### Model 4: Predicting Number of Runs using Ordinary Least Squares - 0.93
 
-From this moment on, this report will only be using what will be referred to atomic batting statistics. These are the statistics that strictly contribute to offense (runs) without over lapping with each other (eg: OPS and OBP).
+From this moment on, this report will only be using what will be referred to <i>atomic batting statistics</i>. These are the statistics that strictly contribute to offense (runs) without over lapping with each other (eg: OPS and OBP).
 The atomic batting statistics chosen are:
  + Singles
  + Doubles
