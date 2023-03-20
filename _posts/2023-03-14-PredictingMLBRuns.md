@@ -86,7 +86,7 @@ The final model this report uses a Polynomial Regression algorithm. Before model
 
 <img src="/images/sumCoefs_model6.png" alt="Model6_coefs" width="600"/>
 
-<img src="/images/model6_accuracy.png" alt="Model6_accuracy" width="600"/>
+<img src="/images/model6_accuracy.png" alt="Model6_accuracy" width="500"/>
 
 
 ---
