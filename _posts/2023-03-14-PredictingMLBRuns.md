@@ -100,4 +100,3 @@ Six models were employed, with Model 4 (Ordinary Least Squares), Model 5 (Random
 The results indicate that these atomic batting statistics play a crucial role in determining the number of runs scored. Model 4 (Ordinary Least Squares) demonstrated the strongest relationship between predictor variables and outcomes, with an R-squared value of 0.93, followed closely by Model 6 (Polynomial Regression) with an R-squared value of 0.92. The feature importance rankings derived from these models can help guide team management strategies, as they offer insights into which baseball statistics have the most significant impact on runs scored and, ultimately, team performance.
 
 Future work could include incorporating additional features such as defensive statistics, exploring different machine learning techniques, or analyzing player-level data to refine the models further and gain a deeper understanding of the factors contributing to a successful MLB season.
-
