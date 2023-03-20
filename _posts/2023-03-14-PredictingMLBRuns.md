@@ -74,7 +74,7 @@ The first model this report chooses to run on the <i>atomic features</i> is (of 
 
 ---
 
-### Model 5: Predicting number of Runs using Random Forrest - 0.86
+### Model 5: Predicting number of Runs using Random Forest - 0.86
 
 Model 5 employs a Random Forest algorithm. A grid search was performed to find the optimal hyperparameters for the model. With an R-squared value of 0.86, Model 5 indicates a strong correlation between the selected features (Homeruns, Singles, Doubles, Triples, and Walks) and the number of runs scored. This model provides valuable insights into the relationship between various baseball statistics and team performance.
 
@@ -93,4 +93,11 @@ The final model this report uses a Polynomial Regression algorithm. Before model
 
 ### Conclusion
 
+This project explored various regression techniques to predict MLB season outcomes and identify the most significant baseball statistics contributing to runs scored. This statistic was chosen since it was much more susceptible to a linear regression than Wins or Rank (the initial goal of this project).
+
+Six models were employed, with Model 4 (Ordinary Least Squares), Model 5 (Random Forest), and Model 6 (Polynomial Regression) achieving the highest R-squared values when predicting the number of runs scored <i> using atomic batting statistics </i>(Homeruns, Singles, Doubles, Triples, and Walks).
+
+The results indicate that these atomic batting statistics play a crucial role in determining the number of runs scored. Model 4 (Ordinary Least Squares) demonstrated the strongest relationship between predictor variables and outcomes, with an R-squared value of 0.93, followed closely by Model 6 (Polynomial Regression) with an R-squared value of 0.92. The feature importance rankings derived from these models can help guide team management strategies, as they offer insights into which baseball statistics have the most significant impact on runs scored and, ultimately, team performance.
+
+Future work could include incorporating additional features such as defensive statistics, exploring different machine learning techniques, or analyzing player-level data to refine the models further and gain a deeper understanding of the factors contributing to a successful MLB season.
 
