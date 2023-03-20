@@ -10,7 +10,7 @@ icon: icon-baseball
 ---
 
 [Baseball Modeling (Code)](https://github.com/jamiesolomon/Baseball_Modeling)
-[Full Report](/images/FullReport.pdf) <br>
+ <br>
 
 This project iterates through various regression models for predicting the outcome of an MLB season. Finally, this project uses the most successful models to rank the importance of the analyzed features. The dataset used in this project contains batting statistics from Major League Baseball teams from 1951 to 2021.
 
