@@ -84,7 +84,7 @@ Model 5 employs a Random Forest algorithm. A grid search was performed to find t
 
 The final model this report uses a Polynomial Regression algorithm. Before modeling, the data was scaled, and a grid search was conducted to find the optimal hyperparameters. Model 6 achieved an impressive R-squared value of 0.92, suggesting a stronger relationship between the predictor variables (Homeruns, Singles, Doubles, Triples, and Walks) and the outcome compared to Model 5. The results from Model 6 further advance our understanding of the relationship between various baseball statistics and team performance.
 
-<img src="/images/sumCoefs_model6.png" alt="Model6_coefs" width="600"/>
+<img src="/images/sumCoefs_model6.png" alt="Model6_coefs" width="500"/>
 
 <img src="/images/model6_accuracy.png" alt="Model6_accuracy" width="500"/>
 
