@@ -17,9 +17,6 @@ This report explores the hypothesis that the USD/CAD foreign exchange rate follo
 
 The code for this project can be found in the following [Github repository](https://github.com/jamiesolomon/ForeignExchangeNormality). 
 
-### Full Report
-
-The full report can be found in the following [PDF file](/images/FullReport.pdf).
 
 ## Exploratory Data Analysis
 
