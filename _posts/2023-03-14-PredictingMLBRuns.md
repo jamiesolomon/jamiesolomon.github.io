@@ -69,17 +69,20 @@ The following heatmap displays the correlation between all features being used i
 <br>
 <img src="/images/corr_heatmap.png" alt="Correlation_Heatmap" width="900"/>
 <br>
-The first model this report chooses to run is (of course) an Ordinary Least Squares regression, due to its summarization method and quick p-value checking. The model runs incredibly well, boasting the best r-squared value in the entire project of 0.93. This means the current model can predict the number of runs a team gets in one season with a high degree of accuracy using the aforementioned features... now the question begs: Which features contributes the most to runs? and which features should a team focus less on investing in. The following bar graph ranks the coefficient values in which the linear model assigned to each feature. <br>
+The first model this report chooses to run on the <i>atomic features</i> is (of course) an Ordinary Least Squares regression, due to its summarization method and quick p-value checking. The model runs incredibly well, boasting the best r-squared value in the entire project of 0.93. This means the current model can predict the number of runs a team gets in one season with a high degree of accuracy using the aforementioned features... now the question begs: Which features contributes the most to runs? and which features should a team focus less on investing in. The following bar graph ranks the coefficient values in which the linear model assigned to each feature. <br>
 <img src="/images/model4_coefs.png" alt="Model4_Coefficients" width="600"/>
 
 ---
 
 ### Model 5: Predicting number of Runs using Random Forrest - 0.86
 
+Model 5 employs a Random Forest algorithm. A grid search was performed to find the optimal hyperparameters for the model. With an R-squared value of 0.86, Model 5 indicates a strong correlation between the selected features (Homeruns, Singles, Doubles, Triples, and Walks) and the number of runs scored. This model provides valuable insights into the relationship between various baseball statistics and team performance.
 
 ---
 
 ### Model 6: Predicting number of Runs using Polynomial Regression - 0.92
+
+The final model this report uses a Polynomial Regression algorithm. Before modeling, the data was scaled, and a grid search was conducted to find the optimal hyperparameters. Model 6 achieved an impressive R-squared value of 0.92, suggesting a stronger relationship between the predictor variables (Homeruns, Singles, Doubles, Triples, and Walks) and the outcome compared to Model 5. The results from Model 6 further advance our understanding of the relationship between various baseball statistics and team performance.
 
 <img src="/images/sumCoefs_model6.png" alt="Model6_coefs" width="600"/>
 
